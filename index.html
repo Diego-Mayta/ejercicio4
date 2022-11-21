@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a7.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="titulo">
+        <h1>Método Halley para calcular la raíz cúbica de un número</h1>
+    </header>
+    <p>
+        es el método halley. el proceso de solución comienza eligiendo un valor x1 como primera estimación de la solución, utilizando este valor, se calcula un segundo valor x2 más preciso con x2 = x1*(x1**3+2*p)/(2*x1 **3+p), que luego se usa para calcular un tercer valor, aún más preciso, x3 y así sucesivamente. la ecuación general para calcular el valor de xi+1 a partir del valor de xi es xi+1 = xi*(xi**3+2*p)/(2*xi**3+p). escriba un programa matlab que calcule la raíz cúbica de un número, en el programa use x1 = p para la primera estimación de la solución, luego, usando la ecuación general en un bucle, calcule valores nuevos y más precisos.<br>
+        <br>
+        <br>
+        calcular la raiz cubica de los siguientes valores : <br>
+        <img src="formula4.png" width="1100px"> <br>
+        <br>
+        <br>
+        &nbsp;---->  &nbsp;&nbsp;&nbsp;&nbsp; 800 <br>
+        <br>
+        &nbsp;---->&nbsp;&nbsp;&nbsp;&nbsp; 59071 <br>
+        <br>
+        &nbsp;---->&nbsp;&nbsp;&nbsp;&nbsp; -31.55
+    </p>
+    <section>
+        <div class="respuesta"> 
+            <label class="letritas"> introduzca un numero:</label>
+            <input type="number" id=a placeholder="ejemplo 8">
+            <button onclick="identidad()">Calcular</button>
+            <TABLE align="center">
+                <tr>
+                    <td>
+                        <h5 class="letritas">Su raiz cubica es :  </h5> 
+                    </td>
+                    <td>
+                        <div class="te" id="identidad"></div>
+                    </td>
+                </tr>
+            </TABLE> 
+        </section>
+
+    <script src="a7.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+.respuesta{
+    background-image: url(https://browsecat.net/sites/default/files/beautiful-space-wallpapers-94587-734954-6243009.png);
+    color: rgb(204, 204, 204);
+    padding: 16px;
+    text-align: center;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(https://a-static.besthdwallpaper.com/neon-de-arte-digital-papel-pintado-3000x2000-82602_42.jpg);
+}
+section{
+    background-image: url(https://w0.peakpx.com/wallpaper/424/45/HD-wallpaper-bubbles-bubble.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo{
+    text-align: center;
+    background-image: url(https://images7.alphacoders.com/872/872307.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20PX;
+}
+header h1{
+    background-color: rgba(0, 0, 0,0.7);
+    padding: 20px;
+    color: rgb(238, 238, 238);
+    font-size: 40PX;
+}
+.letritas{
+    color: rgb(194, 164, 252);
+    text-align: center;
+    background-color: rgba(0, 0, 0,0.7);
+}
+.respuesta{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/369/790/non_2x/4k-uhd-3d-neon-light-illustration-background-free-photo.jpg);
+    color: rgb(204, 204, 204);
+    padding: 16px;
+    text-align: center;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    font-size: 20px;
+    background-color: rgb(74, 22, 122);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px; 
+    
+}
+input[type=number]{
+    width: 20%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgb(48, 6, 116);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.te{
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0,0.7);
+}
+p{
+    padding: 40px;
+    background-color: rgba(0, 0, 0,0.7);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+}
